@@ -34,7 +34,6 @@ To evaluate and compare the aerodynamic performance (drag force) of two simplifi
 ```
 ozu-racing-cfd-2025/
 │
-├── 📄 group1_final_project_report.pdf       # Full project report
 ├── 📊 group1_final_project_presentation.pdf # Presentation slides
 ├── 📘 README.md                             # Project description
 ```
