@@ -1,4 +1,4 @@
-# OzU Racing – CFD Analysis of Formula Student Car (2025)
+# Flow Around Formula Car Of Racing Team - ME396 Final Project (2025)
 
 This repository documents a Computational Fluid Dynamics (CFD) study of two carbon fiber body geometries designed for the **OzU Racing Team’s 2025 Formula Student car**.
 
