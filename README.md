@@ -1,4 +1,4 @@
-# Flow Around Formula Car Of Racing Team (2025)
+# Flow Around Formula Car Of Racing Team
 
 This repository documents a Computational Fluid Dynamics (CFD) study of two carbon fiber body geometries designed for the **OzU Racing Team’s 2025 Formula Student car**.
 
