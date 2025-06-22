@@ -73,6 +73,8 @@ Videos of each case and iteration can be found here:
 ## 👥Instructor:
 Assoc. Prof. Dr. Özgür Ertunç
 
+## Simulation Visuals:
+
 ![Body 1 - 25m/s Iteration 2](Body%201%2025ms%20-%20Iter%20No%202.png)
 
 ![Body 2 - 25m/s Iteration 2](Body%202%2025ms%20-%20Iter%20No%202.png)
