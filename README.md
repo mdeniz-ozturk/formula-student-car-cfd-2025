@@ -1,8 +1,8 @@
 # Flow Around Formula Car Of Racing Team
 
-This repository documents a Computational Fluid Dynamics (CFD) study of two carbon fiber body geometries designed for the **OzU Racing Team’s 2025 Formula Student car**.
+This repository documents a Computational Fluid Dynamics (CFD) study of two carbon fiber body geometries designed for the OzU Racing Team’s 2025 Formula Student car.
 
-The project was conducted as part of the **ME396: Computational Fluid Dynamics with Professional Simulation Tools** course at Özyeğin University.
+The project was conducted as part of the ME396: Computational Fluid Dynamics with Professional Simulation Tools course at Özyeğin University.
 
 ## 📌 Project Objective
 
@@ -18,6 +18,34 @@ To evaluate and compare the aerodynamic performance (drag force) of two simplifi
   - Tire rotation modeled
   - Moving ground in iteration 2
 
+## 🧪 Simulation Setup
+
+All simulations were steady-state with symmetry applied. The tire rotation and airflow were configured to represent realistic racing conditions.
+
+### ✅ Simulation Cases
+
+| Iteration | Body  | Air Velocity | Tire Velocity | Ground Velocity | Purpose                       |
+|-----------|-------|--------------|----------------|------------------|-------------------------------|
+| 1         | Body 1 | 25 m/s       | 98 rad/s       | —                | Initial comparison setup      |
+| 1         | Body 2 | 25 m/s       | 98 rad/s       | —                | Initial comparison setup      |
+| 1         | Body 2 | 15 m/s       | 56 rad/s       | —                | Effect of lower velocity      |
+| 2         | Body 1 | 25 m/s       | 98 rad/s       | 25 m/s           | Realistic iteration w/ ground |
+| 2         | Body 2 | 25 m/s       | 98 rad/s       | 25 m/s           | Realistic iteration w/ ground |
+| 2         | Body 1 | 15 m/s       | 56 rad/s       | 15 m/s           | Realistic at low speed        |
+| 2         | Body 2 | 15 m/s       | 56 rad/s       | 15 m/s           | Realistic at low speed        |
+
+## 📊 Drag Force Results
+
+| Iteration | Body  | Air Speed | Drag Force [N] |
+|-----------|-------|-----------|----------------|
+| 1         | Body 1 | 25 m/s    | 193.45         |
+| 1         | Body 2 | 25 m/s    | 158.84         |
+| 1         | Body 2 | 15 m/s    | 58.28          |
+| 2         | Body 1 | 25 m/s    | 252.56         |
+| 2         | Body 2 | 25 m/s    | 265.05         |
+| 2         | Body 1 | 15 m/s    | 94.31          |
+| 2         | Body 2 | 15 m/s    | 106.42         |
+
 ## 📊 Results Summary
 
 | Body   | Iteration | Velocity | Drag Force (N) |
@@ -27,16 +55,7 @@ To evaluate and compare the aerodynamic performance (drag force) of two simplifi
 | Body 1 | #2        | 25 m/s   | 252.55         |
 | Body 2 | #2        | 25 m/s   | 265.05         |
 
-- **Body 2** performed better in Iteration 1, but **Body 1** showed improved results with realistic modeling in Iteration 2.
-
-## 📁 Repository Structure
-
-```
-ozu-racing-cfd-2025/
-│
-├── 📊 group1_final_project_presentation.pdf # Presentation slides
-├── 📘 README.md                             # Project description
-```
+> ✅ **Conclusion:** In the refined second iteration, **Body 1** showed improved aerodynamic performance, despite **Body 2** initially performing better in the first setup.
 
 ## 📺 Simulation Videos
 
@@ -48,8 +67,8 @@ Videos of each case and iteration can be found here:
 - [Body 2 - Iteration 2](https://www.youtube.com/watch?v=Vtjjxzg7SsE)
 
 ## 👥 Authors
-
 - Egemen Çorap  
 - Mehmet Deniz Öztürk
   
-Instructor: Assoc. Prof. Dr. Özgür Ertunç
+## 👥Instructor:
+Assoc. Prof. Dr. Özgür Ertunç
